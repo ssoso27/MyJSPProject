@@ -23,6 +23,10 @@ public class LinkedList <T extends Object> {
         }
     }
 
+    public void remove() {
+        // 뭐 대충 리무브가 됩니다
+    }
+
     public Object[] toOArray() {
         Object[] array = new Object[this.size];
 
